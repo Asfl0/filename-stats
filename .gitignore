@@ -1,0 +1,25 @@
+# 构建中间产物
+build/_tmp/
+build/python/
+*.spec
+__pycache__/
+*.pyc
+
+# 用户配置（预设 + AI 设置统一存 config.json；含 api_key，绝不入库）
+config.json
+# 旧的两份配置（已被 config.json 取代，仅作迁移兼容）
+presets.json
+ai_config.json
+*.json.bak
+
+# 构建时自动备份的固化预设模板
+build/src/pattern_presets.py.bak
+
+# 输出产物（exe 体积大，用 Release 分发；仓库里只保留源码）
+output/
+# 便携包 / 工程打包 zip
+*.zip
+
+# 编辑器
+.vscode/
+.idea/
