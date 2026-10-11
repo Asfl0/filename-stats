@@ -12,6 +12,10 @@
   <img alt="Python" src="https://img.shields.io/badge/python-3.12-3776AB">
 </p>
 
+<p align="center">
+  <img src="assets/screenshot.png" alt="界面截图" width="760">
+</p>
+
 ---
 
 ## 下载（免安装）
