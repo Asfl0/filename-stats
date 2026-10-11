@@ -5,7 +5,25 @@
   不写正则 · 预设下拉 · 中文友好 · 便携单文件 exe · 零依赖
 </p>
 
+<p align="center">
+  <a href="https://github.com/Asfl0/filename-stats/releases/latest"><img alt="Download" src="https://img.shields.io/github/v/release/Asfl0/filename-stats?label=download&color=brightgreen"></a>
+  <a href="https://github.com/Asfl0/filename-stats/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/Asfl0/filename-stats"></a>
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows-0078D6">
+  <img alt="Python" src="https://img.shields.io/badge/python-3.12-3776AB">
+</p>
+
 ---
+
+## 下载（免安装）
+
+前往 [**Releases**](https://github.com/Asfl0/filename-stats/releases/latest) 下载，选一个即可：
+
+| 文件 | 说明 |
+|---|---|
+| `filename-stats.exe` | **图形界面版**。下载后重命名为 `文件名统计.exe`，双击即用 |
+| `filename-stats-cli.exe` | 命令行版 |
+
+> 单文件便携，无需安装 Python。把它复制到要统计的文件夹里双击运行即可。
 
 ## 这是什么
 
@@ -109,6 +127,12 @@ cd build
 ├─ assets/                    图标等资源（可选）
 └─ README.md
 ```
+
+## 相关链接
+
+- 仓库：https://github.com/Asfl0/filename-stats
+- 下载：https://github.com/Asfl0/filename-stats/releases/latest
+- 问题反馈：https://github.com/Asfl0/filename-stats/issues
 
 ## 许可证
 
